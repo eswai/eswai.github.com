@@ -4,7 +4,7 @@
   <title><![CDATA[Weblog.sy]]></title>
   <link href="http://eswai.github.com/atom.xml" rel="self"/>
   <link href="http://eswai.github.com/"/>
-  <updated>2012-12-02T12:12:04+01:00</updated>
+  <updated>2012-12-02T12:32:27+01:00</updated>
   <id>http://eswai.github.com/</id>
   <author>
     <name><![CDATA[eswai]]></name>
@@ -14,10 +14,10 @@
 
   
   <entry>
-    <title type="html"><![CDATA[flicker plugin for Jekyll]]></title>
-    <link href="http://eswai.github.com/blog/2012/12/02/flicker-plugin/"/>
+    <title type="html"><![CDATA[Flickr plugin for Jekyll]]></title>
+    <link href="http://eswai.github.com/blog/2012/12/02/flickr-plugin/"/>
     <updated>2012-12-02T11:50:00+01:00</updated>
-    <id>http://eswai.github.com/blog/2012/12/02/flicker-plugin</id>
+    <id>http://eswai.github.com/blog/2012/12/02/flickr-plugin</id>
     <content type="html"><![CDATA[<p>Flickr plugin for jekyll is nice.
 I modified the following plugin to add exif info under photos.</p>
 
