@@ -4,7 +4,7 @@
   <title><![CDATA[Weblog.sy]]></title>
   <link href="http://eswai.github.com/atom.xml" rel="self"/>
   <link href="http://eswai.github.com/"/>
-  <updated>2012-12-02T09:41:58+01:00</updated>
+  <updated>2012-12-02T12:12:04+01:00</updated>
   <id>http://eswai.github.com/</id>
   <author>
     <name><![CDATA[eswai]]></name>
@@ -12,6 +12,52 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[flicker plugin for Jekyll]]></title>
+    <link href="http://eswai.github.com/blog/2012/12/02/flicker-plugin/"/>
+    <updated>2012-12-02T11:50:00+01:00</updated>
+    <id>http://eswai.github.com/blog/2012/12/02/flicker-plugin</id>
+    <content type="html"><![CDATA[<p>Flickr plugin for jekyll is nice.
+I modified the following plugin to add exif info under photos.</p>
+
+<p><a href="https://github.com/cnunciato/jekyll-flickr">cnunciato/jekyll-flickr · GitHub</a></p>
+
+<figure class='code'><figcaption><span>patch  </span></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="mi">39</span><span class="n">c39</span>
+</span><span class='line'><span class="o">&lt;</span>       <span class="vi">@photo</span> <span class="o">=</span> <span class="p">{</span> <span class="ss">:id</span> <span class="o">=&gt;</span> <span class="n">params</span><span class="o">[</span><span class="mi">0</span><span class="o">]</span><span class="p">,</span> <span class="ss">:size</span> <span class="o">=&gt;</span> <span class="n">params</span><span class="o">[</span><span class="mi">1</span><span class="o">]</span> <span class="o">||</span> <span class="s2">&quot;Medium&quot;</span><span class="p">,</span> <span class="ss">:sizes</span> <span class="o">=&gt;</span> <span class="p">{},</span> <span class="ss">:title</span> <span class="o">=&gt;</span> <span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="ss">:caption</span> <span class="o">=&gt;</span> <span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="ss">:url</span> <span class="o">=&gt;</span> <span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="ss">:exif</span> <span class="o">=&gt;</span> <span class="p">{}</span> <span class="p">}</span>
+</span><span class='line'><span class="o">---</span>
+</span><span class='line'><span class="o">&gt;</span>       <span class="vi">@photo</span> <span class="o">=</span> <span class="p">{</span> <span class="ss">:id</span> <span class="o">=&gt;</span> <span class="n">params</span><span class="o">[</span><span class="mi">0</span><span class="o">]</span><span class="p">,</span> <span class="ss">:size</span> <span class="o">=&gt;</span> <span class="n">params</span><span class="o">[</span><span class="mi">1</span><span class="o">]</span> <span class="o">||</span> <span class="s2">&quot;Medium 640&quot;</span><span class="p">,</span> <span class="ss">:sizes</span> <span class="o">=&gt;</span> <span class="p">{},</span> <span class="ss">:title</span> <span class="o">=&gt;</span> <span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="ss">:caption</span> <span class="o">=&gt;</span> <span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="ss">:url</span> <span class="o">=&gt;</span> <span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="ss">:exif</span> <span class="o">=&gt;</span> <span class="p">{}</span> <span class="p">}</span>
+</span><span class='line'><span class="mi">45</span><span class="n">c45</span><span class="p">,</span><span class="mi">48</span>
+</span><span class='line'><span class="o">&lt;</span>
+</span><span class='line'><span class="o">---</span>
+</span><span class='line'><span class="o">&gt;</span>
+</span><span class='line'><span class="o">&gt;</span>         <span class="n">ef</span> <span class="o">=</span> <span class="vi">@photo</span><span class="o">[</span><span class="ss">:exif</span><span class="o">]</span>
+</span><span class='line'><span class="o">&gt;</span>         <span class="n">exif</span> <span class="o">=</span> <span class="s2">&quot;</span><span class="si">#{</span><span class="n">ef</span><span class="o">[</span><span class="s1">&#39;Make&#39;</span><span class="o">]</span><span class="si">}</span><span class="s2"> </span><span class="si">#{</span><span class="n">ef</span><span class="o">[</span><span class="s1">&#39;Model&#39;</span><span class="o">]</span><span class="si">}</span><span class="s2"> </span><span class="si">#{</span><span class="n">ef</span><span class="o">[</span><span class="s1">&#39;Lens Model&#39;</span><span class="o">]</span><span class="si">}</span><span class="s2"> </span><span class="si">#{</span><span class="n">ef</span><span class="o">[</span><span class="s1">&#39;Exposure&#39;</span><span class="o">]</span><span class="si">}</span><span class="s2">sec f/</span><span class="si">#{</span><span class="n">ef</span><span class="o">[</span><span class="s1">&#39;Aperture&#39;</span><span class="o">]</span><span class="si">}</span><span class="s2">  ISO</span><span class="si">#{</span><span class="n">ef</span><span class="o">[</span><span class="s1">&#39;ISO Speed&#39;</span><span class="o">]</span><span class="si">}</span><span class="s2"> Focal length:</span><span class="si">#{</span><span class="n">ef</span><span class="o">[</span><span class="s1">&#39;Focal Length&#39;</span><span class="o">]</span><span class="si">}</span><span class="s2">(</span><span class="si">#{</span><span class="n">ef</span><span class="o">[</span><span class="s1">&#39;Focal Length (35mm format)&#39;</span><span class="o">]</span><span class="si">}</span><span class="s2">) on </span><span class="si">#{</span><span class="n">ef</span><span class="o">[</span><span class="s1">&#39;Date and Time (Original)&#39;</span><span class="o">]</span><span class="si">}</span><span class="s2">&quot;</span>
+</span><span class='line'><span class="o">&gt;</span>
+</span><span class='line'><span class="mi">47</span><span class="n">c50</span>
+</span><span class='line'><span class="o">&lt;</span>         <span class="s2">&quot;&lt;a class=</span><span class="se">\&quot;</span><span class="s2">thumbnail</span><span class="se">\&quot;</span><span class="s2"> href=</span><span class="se">\&quot;</span><span class="si">#{</span><span class="vi">@photo</span><span class="o">[</span><span class="ss">:url</span><span class="o">]</span><span class="si">}</span><span class="se">\&quot;</span><span class="s2">&gt;&lt;img src=</span><span class="se">\&quot;</span><span class="si">#{</span><span class="n">selected_size</span><span class="o">[</span><span class="ss">:source</span><span class="o">]</span><span class="si">}</span><span class="se">\&quot;</span><span class="s2"> title=</span><span class="se">\&quot;</span><span class="si">#{</span><span class="vi">@photo</span><span class="o">[</span><span class="ss">:title</span><span class="o">]</span><span class="si">}</span><span class="se">\&quot;</span><span class="s2">&gt;&lt;/a&gt;&quot;</span>
+</span><span class='line'><span class="o">---</span>
+</span><span class='line'><span class="o">&gt;</span>         <span class="s2">&quot;&lt;a class=</span><span class="se">\&quot;</span><span class="s2">thumbnail</span><span class="se">\&quot;</span><span class="s2"> href=</span><span class="se">\&quot;</span><span class="si">#{</span><span class="vi">@photo</span><span class="o">[</span><span class="ss">:url</span><span class="o">]</span><span class="si">}</span><span class="se">\&quot;</span><span class="s2">&gt;&lt;img src=</span><span class="se">\&quot;</span><span class="si">#{</span><span class="n">selected_size</span><span class="o">[</span><span class="ss">:source</span><span class="o">]</span><span class="si">}</span><span class="se">\&quot;</span><span class="s2"> title=</span><span class="se">\&quot;</span><span class="si">#{</span><span class="vi">@photo</span><span class="o">[</span><span class="ss">:title</span><span class="o">]</span><span class="si">}</span><span class="se">\&quot;</span><span class="s2">&gt;&lt;/a&gt;&lt;br/&gt;&lt;small&gt;</span><span class="si">#{</span><span class="n">exif</span><span class="si">}</span><span class="s2">&lt;/small&gt;&quot;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Strasbourg]]></title>
@@ -31,11 +77,11 @@ But I enjoyed it because such stew, which may take a bit long time to cook, can 
 
 <p>It was so cold yesterday.</p>
 
-<p><a href="http://www.flickr.com/photos/54817657@N00/8237286546/" title="Untitled by sakamoto.yuki, on Flickr"><img src="http://farm9.staticflickr.com/8486/8237286546_8902e0fc48_z.jpg" width="640" height="480" alt="Untitled"></a></p>
+<p><a class="thumbnail" href="http://www.flickr.com/photos/54817657@N00/8237286546/"><img src="http://farm9.staticflickr.com/8486/8237286546_8902e0fc48_z.jpg" title=""></a><br/><small>Apple iPhone 4S  1/15sec f/2.4  ISO640 Focal length:4.3 mm(35 mm) on 2012:12:01 13:15:26</small></p>
 
-<p><a href="http://www.flickr.com/photos/54817657@N00/8236220499/" title="Untitled by sakamoto.yuki, on Flickr"><img src="http://farm9.staticflickr.com/8482/8236220499_8b0c1acf47_z.jpg" width="640" height="480" alt="Untitled"></a></p>
+<p><a class="thumbnail" href="http://www.flickr.com/photos/54817657@N00/8236220499/"><img src="http://farm9.staticflickr.com/8482/8236220499_8b0c1acf47_z.jpg" title=""></a><br/><small>Apple iPhone 4S  1/40sec f/2.4  ISO50 Focal length:4.3 mm(35 mm) on 2012:12:01 13:21:32</small></p>
 
-<p><a href="http://www.flickr.com/photos/54817657@N00/8237287798/" title="Untitled by sakamoto.yuki, on Flickr"><img src="http://farm9.staticflickr.com/8069/8237287798_384d2fbeb0_z.jpg" width="640" height="480" alt="Untitled"></a></p>
+<p><a class="thumbnail" href="http://www.flickr.com/photos/54817657@N00/8237287798/"><img src="http://farm9.staticflickr.com/8069/8237287798_384d2fbeb0_z.jpg" title=""></a><br/><small>Apple iPhone 4S  1/30sec f/2.4  ISO50 Focal length:4.3 mm(35 mm) on 2012:12:01 13:23:37</small></p>
 ]]></content>
   </entry>
   
