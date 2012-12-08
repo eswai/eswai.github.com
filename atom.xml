@@ -4,7 +4,7 @@
   <title><![CDATA[Weblog.sy]]></title>
   <link href="http://eswai.github.com/atom.xml" rel="self"/>
   <link href="http://eswai.github.com/"/>
-  <updated>2012-12-08T08:20:39+01:00</updated>
+  <updated>2012-12-08T10:46:58+01:00</updated>
   <id>http://eswai.github.com/</id>
   <author>
     <name><![CDATA[eswai]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[High Dynamic Range]]></title>
+    <link href="http://eswai.github.com/blog/2012/12/08/high-dynamic-range/"/>
+    <updated>2012-12-08T10:38:00+01:00</updated>
+    <id>http://eswai.github.com/blog/2012/12/08/high-dynamic-range</id>
+    <content type="html"><![CDATA[<p>I like HDR painting effect in A57 body very much.
+It is a kind of unrealistic effects, which combines 3 different exposure photos.</p>
+
+<p><a class="thumbnail" href="http://www.flickr.com/photos/54817657@N00/8253460279/"><img src="http://farm9.staticflickr.com/8480/8253460279_92d77a8611_z.jpg" title="DSC09221 HDR"></a><br/><small>SONY SLT-A57 DT 35mm F1.8 SAM: 1/2000sec f/2.8  ISO100 Focal length:35.0 mm(52 mm) on 2012:12:08 08:50:35</small></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Church at night]]></title>
