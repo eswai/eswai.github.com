@@ -4,7 +4,7 @@
   <title><![CDATA[Weblog.sy]]></title>
   <link href="http://eswai.github.com/atom.xml" rel="self"/>
   <link href="http://eswai.github.com/"/>
-  <updated>2013-01-10T04:21:08+01:00</updated>
+  <updated>2013-01-13T07:59:23+01:00</updated>
   <id>http://eswai.github.com/</id>
   <author>
     <name><![CDATA[eswai]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Burg in snow]]></title>
+    <link href="http://eswai.github.com/blog/2013/01/13/burg-in-snow/"/>
+    <updated>2013-01-13T07:44:00+01:00</updated>
+    <id>http://eswai.github.com/blog/2013/01/13/burg-in-snow</id>
+    <content type="html"><![CDATA[<p>I visited Burg Esslingen to see how it is like in snow.</p>
+
+<p>Tree in the garden.
+Each stems is so clear thanks to RX100.</p>
+
+<p><a class="thumbnail" href="http://www.flickr.com/photos/54817657@N00/8373704762/"><img src="http://farm9.staticflickr.com/8467/8373704762_3ec4c9c121_z.jpg" title="DSC00329_DxO"></a><br/><small>SONY DSC-RX100 : 1/1600sec f/2.5  ISO125 Focal length:10.4 mm(28 mm) on 2013:01:12 15:04:26</small></p>
+
+<p>View from the observatory.</p>
+
+<p><a class="thumbnail" href="http://www.flickr.com/photos/54817657@N00/8372613451/"><img src="http://farm9.staticflickr.com/8510/8372613451_6c6221f7e9_z.jpg" title="DSC00338_DxO"></a><br/><small>SONY DSC-RX100 : 1/1000sec f/2.5  ISO125 Focal length:10.4 mm(28 mm) on 2013:01:12 15:06:38</small></p>
+
+<p>I feel &#8216;Lighting&#8217; feature of DxO Optics is too strong.
+I should review default setting probably.
+It might be better to reduce Lighting value or switch it off for default.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Airport]]></title>
