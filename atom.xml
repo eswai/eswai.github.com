@@ -4,7 +4,7 @@
   <title><![CDATA[Weblog.sy]]></title>
   <link href="http://eswai.github.com/atom.xml" rel="self"/>
   <link href="http://eswai.github.com/"/>
-  <updated>2013-01-13T07:59:23+01:00</updated>
+  <updated>2013-01-23T06:01:20+01:00</updated>
   <id>http://eswai.github.com/</id>
   <author>
     <name><![CDATA[eswai]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Short trip]]></title>
+    <link href="http://eswai.github.com/blog/2013/01/23/short-trip/"/>
+    <updated>2013-01-23T05:54:00+01:00</updated>
+    <id>http://eswai.github.com/blog/2013/01/23/short-trip</id>
+    <content type="html"><![CDATA[<p>Sight over clouds.</p>
+
+<p><a class="thumbnail" href="http://www.flickr.com/photos/54817657@N00/8405357266/"><img src="http://farm9.staticflickr.com/8096/8405357266_5c76318c8f_z.jpg" title="DSC00369_DxO"></a><br/><small>SONY DSC-RX100 : 1/400sec f/5.6  ISO125 Focal length:10.4 mm(28 mm) on 2013:01:16 16:24:21</small></p>
+
+<p>I like this space over the long distance railway plathome.</p>
+
+<p><a class="thumbnail" href="http://www.flickr.com/photos/54817657@N00/8404266713/"><img src="http://farm9.staticflickr.com/8496/8404266713_423befe49f_z.jpg" title="DSC00406_DxO"></a><br/><small>SONY DSC-RX100 : 1/125sec f/1.8  ISO1600 Focal length:10.4 mm(28 mm) on 2013:01:22 06:31:35</small></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Burg in snow]]></title>
