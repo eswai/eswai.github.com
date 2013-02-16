@@ -4,7 +4,7 @@
   <title><![CDATA[Weblog.sy]]></title>
   <link href="http://eswai.github.com/atom.xml" rel="self"/>
   <link href="http://eswai.github.com/"/>
-  <updated>2013-01-23T06:01:20+01:00</updated>
+  <updated>2013-02-16T07:29:45+01:00</updated>
   <id>http://eswai.github.com/</id>
   <author>
     <name><![CDATA[eswai]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Barcelona]]></title>
+    <link href="http://eswai.github.com/blog/2013/02/16/barcelona/"/>
+    <updated>2013-02-16T07:20:00+01:00</updated>
+    <id>http://eswai.github.com/blog/2013/02/16/barcelona</id>
+    <content type="html"><![CDATA[<p>I went to Barcelona last weekend for sightseeing and watching soccer game.
+The most impressive was Sagrada Familia which is too famous building still under construction.</p>
+
+<p><a class="thumbnail" href="http://www.flickr.com/photos/54817657@N00/8467564694/"><img src="http://farm9.staticflickr.com/8252/8467564694_96ae49e882_z.jpg" title="DSC00589_DxO"></a><br/><small>SONY DSC-RX100 : 1/2000sec f/2.2  ISO125 Focal length:10.4 mm(28 mm) on 2013:02:09 12:37:31</small></p>
+
+<p><a class="thumbnail" href="http://www.flickr.com/photos/54817657@N00/8466488953/"><img src="http://farm9.staticflickr.com/8519/8466488953_dc36c3f63a_z.jpg" title="DSC00547_DxO"></a><br/><small>SONY DSC-RX100 : 1/500sec f/5.6  ISO125 Focal length:10.4 mm(28 mm) on 2013:02:09 12:14:59</small></p>
+
+<p><a class="thumbnail" href="http://www.flickr.com/photos/54817657@N00/8467568422/"><img src="http://farm9.staticflickr.com/8087/8467568422_4aaa29cbe5_z.jpg" title="DSC00576_DxO"></a><br/><small>SONY DSC-RX100 : 1/125sec f/1.8  ISO400 Focal length:10.4 mm(28 mm) on 2013:02:09 12:30:30</small></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Short trip]]></title>
