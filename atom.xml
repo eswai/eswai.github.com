@@ -4,7 +4,7 @@
   <title><![CDATA[Weblog.sy]]></title>
   <link href="http://eswai.github.com/atom.xml" rel="self"/>
   <link href="http://eswai.github.com/"/>
-  <updated>2013-02-16T07:50:54+01:00</updated>
+  <updated>2013-03-02T20:52:07+01:00</updated>
   <id>http://eswai.github.com/</id>
   <author>
     <name><![CDATA[eswai]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Ice cream shop]]></title>
+    <link href="http://eswai.github.com/blog/2013/03/02/ice-cream-shop/"/>
+    <updated>2013-03-02T20:45:00+01:00</updated>
+    <id>http://eswai.github.com/blog/2013/03/02/ice-cream-shop</id>
+    <content type="html"><![CDATA[<p>Ice cream shop at the ground floor of Schelztor tower has been open from March finally.
+Today is still cold, but sunny day after a long winter.</p>
+
+<p><a class="thumbnail" href="http://www.flickr.com/photos/54817657@N00/8521817108/"><img src="http://farm9.staticflickr.com/8099/8521817108_bfc3c1a632_z.jpg" title="DSC09761_DxO"></a><br/><small>SONY SLT-A57 DT 18-135mm F3.5-5.6 SAM: 1/1000sec f/8.0  ISO100 Focal length:18.0 mm(27 mm) on 2013:03:02 15:58:29</small></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Barcelona]]></title>
