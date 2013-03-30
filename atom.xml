@@ -4,7 +4,7 @@
   <title><![CDATA[Weblog.sy]]></title>
   <link href="http://eswai.github.com/atom.xml" rel="self"/>
   <link href="http://eswai.github.com/"/>
-  <updated>2013-03-02T20:52:07+01:00</updated>
+  <updated>2013-03-30T12:11:15+01:00</updated>
   <id>http://eswai.github.com/</id>
   <author>
     <name><![CDATA[eswai]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Floodlight]]></title>
+    <link href="http://eswai.github.com/blog/2013/03/30/light-up/"/>
+    <updated>2013-03-30T05:46:00+01:00</updated>
+    <id>http://eswai.github.com/blog/2013/03/30/light-up</id>
+    <content type="html"><![CDATA[<p>Burg is lit by floodlihits every night, but it is difficult to find goot position to see all of it.</p>
+
+<p>flickr_photo {% 8602477390 %}</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Ice cream shop]]></title>
