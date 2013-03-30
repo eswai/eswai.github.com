@@ -4,7 +4,7 @@
   <title><![CDATA[Weblog.sy]]></title>
   <link href="http://eswai.github.com/atom.xml" rel="self"/>
   <link href="http://eswai.github.com/"/>
-  <updated>2013-03-30T12:11:15+01:00</updated>
+  <updated>2013-03-30T12:13:23+01:00</updated>
   <id>http://eswai.github.com/</id>
   <author>
     <name><![CDATA[eswai]]></name>
@@ -20,7 +20,7 @@
     <id>http://eswai.github.com/blog/2013/03/30/light-up</id>
     <content type="html"><![CDATA[<p>Burg is lit by floodlihits every night, but it is difficult to find goot position to see all of it.</p>
 
-<p>flickr_photo {% 8602477390 %}</p>
+<p><a class="thumbnail" href="http://www.flickr.com/photos/54817657@N00/8602477390/"><img src="http://farm9.staticflickr.com/8255/8602477390_82eca000e7_z.jpg" title="DSC09799_DxO"></a><br/><small>SONY SLT-A57 DT 35mm F1.8 SAM: 1/15sec f/2.2  ISO800 Focal length:35.0 mm(52 mm) on 2013:03:30 05:11:40</small></p>
 ]]></content>
   </entry>
   
